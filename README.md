@@ -1,8 +1,4 @@
-# laravel-webdav
-
-[![Latest Version on Packagist][ico-version]][link-packagist]
-[![Software License][ico-license]](LICENSE.md)
-[![Total Downloads][ico-downloads]][link-downloads]
+# laravel-owncloud
 
 ## Install
 
@@ -26,7 +22,7 @@ Register the service provider in your app.php config file:
 ];
 ```
 
-Create a webdav filesystem disk:
+Create a owncloud filesystem disk:
 
 ``` php
 // config/filesystems.php
