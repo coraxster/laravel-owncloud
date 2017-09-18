@@ -1,0 +1,27 @@
+{
+  "name": "coraxster/laravel-owncloud",
+  "type": "library",
+  "description": "Laravel 5 OwnCloud Filesystem",
+  "keywords": [
+    "webdav",
+    "laravel"
+  ],
+  "homepage": "https://github.com/coraxster/laravel-owncloud",
+  "license": "MIT",
+  "authors": [
+      {
+        "name": "Dmitri Kuzmin",
+        "email": "coraxster@gmail.com"
+      }
+  ],
+  "require": {
+    "php" : "~7.0",
+    "illuminate/filesystem": "^5.0",
+    "coraxster/flysystem-owncloud": ">=1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "League\\Flysystem\\OwnCloud": "src"
+    }
+  }
+}
